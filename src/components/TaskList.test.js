@@ -2,7 +2,7 @@ import TaskList from './TaskList.svelte';
 
 import { render } from '@testing-library/svelte';
 
-import { WithPinnedTasks } from './TaskList.stories'; //👈  Our story imported here
+import { WithPinnedTasks } from './PureTaskList.stories'; //👈  Our story imported here
 
 test('renders pinned tasks at the start of the list', () => {
   //👇 Story's args used with our test
